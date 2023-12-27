@@ -1,0 +1,19 @@
+.flex-content-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.limpiarEstilos::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.elemento {
+    padding: 13px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.elemento:first-child { border-top: 1px solid #e7e7e7; }
+.elemento:nth-child(even) { background-color: red !important; }
